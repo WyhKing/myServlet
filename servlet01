@@ -1,0 +1,12 @@
+Session管理：
+  web语言HTTP是无状态的。通常用来保持用户登录状态的方法有：
+  a.网址重写
+  b.隐藏域
+  c.cookie
+  d.HttpSession
+  
+  1.网址重写：网址重写是一种Session追踪技术，需要将一个或多个token作为一个查询字符串添加到一个URL中。token的格式一般是键=值：
+        url?key1=value1&key2=value2...&keyn=valuen
+        URL和token之间要用一个?隔开，两个token之间用&隔开。
+        
+    
